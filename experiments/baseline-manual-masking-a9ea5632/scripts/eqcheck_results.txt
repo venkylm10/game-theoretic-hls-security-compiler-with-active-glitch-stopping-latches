@@ -1,0 +1,10 @@
+=== equivalence check: and_reduce4 ===
+PASS: and_reduce4: masked design is formally equivalent to baseline (mismatch=0 for all masks)
+=== equivalence check: mux_select ===
+PASS: mux_select: masked design is formally equivalent to baseline (mismatch=0 for all masks)
+=== equivalence check: parity_and_mask ===
+PASS: parity_and_mask: masked design is formally equivalent to baseline (mismatch=0 for all masks)
+=== equivalence check: comparator_eq ===
+PASS: comparator_eq: masked design is formally equivalent to baseline (mismatch=0 for all masks)
+=== equivalence check: popcount_and_gate ===
+PASS: popcount_and_gate: masked design is formally equivalent to baseline (mismatch=0 for all masks)
