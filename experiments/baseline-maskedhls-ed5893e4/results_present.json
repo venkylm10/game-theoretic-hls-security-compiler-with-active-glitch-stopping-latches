@@ -1,0 +1,35 @@
+{
+  "benchmark": "present",
+  "label": "PRESENT Sbox (DOM-AND masked)",
+  "pipeline_depth_cycles": 3,
+  "num_dff": 51,
+  "num_comb_cells": 78,
+  "area_gates": 129,
+  "gate_type_breakdown": {
+    "_total_cells": 129,
+    "$_AND_": 16,
+    "$_DFF_P_": 51,
+    "$_NOT_": 10,
+    "$_XOR_": 52
+  },
+  "power_uw": 0.29374756750000003,
+  "functional_check": {
+    "method": "compare recombined RTL output against a bit-exact Python transliteration of the original present_domand.c source compiled by MaskedHLS, 4000 random (shares, mask) trials",
+    "n_vectors_checked": 4000,
+    "passed": true
+  },
+  "tvla": {
+    "t_curve": [
+      0.03259729304087197,
+      -0.11734303435061058,
+      0.7700751695640708,
+      0.0
+    ],
+    "tvla_t_value": 0.7700751695640708,
+    "n_traces_per_class": 10000000,
+    "n_samples": 4,
+    "mean_hd_per_cycle": 5.87495135
+  },
+  "clock_freq_mhz_assumed": 100.0,
+  "energy_per_toggle_fj_assumed": 0.5
+}
