@@ -1,0 +1,667 @@
+{
+  "records": [
+    {
+      "name": "dot_product4",
+      "greedy": {
+        "latency_cycles": 5,
+        "area_ge": 1344.0,
+        "area_breakdown": {
+          "functional_unit_ge": 448.0,
+          "register_ge": 768.0,
+          "latch_ge": 0.0,
+          "mux_ge": 128.0,
+          "total_ge": 1344.0
+        },
+        "power_mw": 0.001624915,
+        "power_detail": {
+          "power_mw": 0.001624915,
+          "p_dyn_mw": 0.001557715,
+          "p_static_mw": 6.720000000000001e-05,
+          "avg_bits_per_cycle": 15.57715,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "tvla_max_abs_t": 1.113759165825479,
+        "tvla_worst_cycle": 2,
+        "tvla_unprotected_selftest_max_abs_t": 1791.245266930414,
+        "functional_check": {
+          "benchmark": "dot_product4",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 5,
+        "area_ge": 1344.0,
+        "area_breakdown": {
+          "functional_unit_ge": 448.0,
+          "register_ge": 768.0,
+          "latch_ge": 0.0,
+          "mux_ge": 128.0,
+          "total_ge": 1344.0
+        },
+        "power_mw": 0.001624915,
+        "power_detail": {
+          "power_mw": 0.001624915,
+          "p_dyn_mw": 0.001557715,
+          "p_static_mw": 6.720000000000001e-05,
+          "avg_bits_per_cycle": 15.57715,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "functional_check": {
+          "benchmark": "dot_product4",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "name": "fir4_tap",
+      "greedy": {
+        "latency_cycles": 8,
+        "area_ge": 1688.0,
+        "area_breakdown": {
+          "functional_unit_ge": 448.0,
+          "register_ge": 960.0,
+          "latch_ge": 56.0,
+          "mux_ge": 224.0,
+          "total_ge": 1688.0
+        },
+        "power_mw": 0.0011842421428571428,
+        "power_detail": {
+          "power_mw": 0.0011842421428571428,
+          "p_dyn_mw": 0.001099842142857143,
+          "p_static_mw": 8.44e-05,
+          "avg_bits_per_cycle": 10.99842142857143,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 1,
+        "tvla_max_abs_t": 1.0971235762598033,
+        "tvla_worst_cycle": 5,
+        "tvla_unprotected_selftest_max_abs_t": 1791.245266930414,
+        "functional_check": {
+          "benchmark": "fir4_tap",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 8,
+        "area_ge": 1688.0,
+        "area_breakdown": {
+          "functional_unit_ge": 448.0,
+          "register_ge": 960.0,
+          "latch_ge": 56.0,
+          "mux_ge": 224.0,
+          "total_ge": 1688.0
+        },
+        "power_mw": 0.0011842421428571428,
+        "power_detail": {
+          "power_mw": 0.0011842421428571428,
+          "p_dyn_mw": 0.001099842142857143,
+          "p_static_mw": 8.44e-05,
+          "avg_bits_per_cycle": 10.99842142857143,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 1,
+        "functional_check": {
+          "benchmark": "fir4_tap",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "name": "poly_eval5",
+      "greedy": {
+        "latency_cycles": 7,
+        "area_ge": 2256.0,
+        "area_breakdown": {
+          "functional_unit_ge": 848.0,
+          "register_ge": 1152.0,
+          "latch_ge": 0.0,
+          "mux_ge": 256.0,
+          "total_ge": 2256.0
+        },
+        "power_mw": 0.0013755833333333335,
+        "power_detail": {
+          "power_mw": 0.0013755833333333335,
+          "p_dyn_mw": 0.0012627833333333336,
+          "p_static_mw": 0.0001128,
+          "avg_bits_per_cycle": 12.627833333333333,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "tvla_max_abs_t": 1.1061096320669013,
+        "tvla_worst_cycle": 3,
+        "tvla_unprotected_selftest_max_abs_t": 1.1061096320669013,
+        "functional_check": {
+          "benchmark": "poly_eval5",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 6,
+        "area_ge": 2256.0,
+        "area_breakdown": {
+          "functional_unit_ge": 848.0,
+          "register_ge": 1152.0,
+          "latch_ge": 0.0,
+          "mux_ge": 256.0,
+          "total_ge": 2256.0
+        },
+        "power_mw": 0.00162814,
+        "power_detail": {
+          "power_mw": 0.00162814,
+          "p_dyn_mw": 0.00151534,
+          "p_static_mw": 0.0001128,
+          "avg_bits_per_cycle": 15.1534,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "functional_check": {
+          "benchmark": "poly_eval5",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "name": "matvec2x2",
+      "greedy": {
+        "latency_cycles": 8,
+        "area_ge": 2480.0,
+        "area_breakdown": {
+          "functional_unit_ge": 848.0,
+          "register_ge": 1344.0,
+          "latch_ge": 0.0,
+          "mux_ge": 288.0,
+          "total_ge": 2480.0
+        },
+        "power_mw": 0.0016223778571428573,
+        "power_detail": {
+          "power_mw": 0.0016223778571428573,
+          "p_dyn_mw": 0.0014983778571428573,
+          "p_static_mw": 0.000124,
+          "avg_bits_per_cycle": 14.983778571428571,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "tvla_max_abs_t": 2.116350856620351,
+        "tvla_worst_cycle": 5,
+        "tvla_unprotected_selftest_max_abs_t": 788.0734968482582,
+        "functional_check": {
+          "benchmark": "matvec2x2",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 8,
+        "area_ge": 2480.0,
+        "area_breakdown": {
+          "functional_unit_ge": 848.0,
+          "register_ge": 1344.0,
+          "latch_ge": 0.0,
+          "mux_ge": 288.0,
+          "total_ge": 2480.0
+        },
+        "power_mw": 0.0016223778571428573,
+        "power_detail": {
+          "power_mw": 0.0016223778571428573,
+          "p_dyn_mw": 0.0014983778571428573,
+          "p_static_mw": 0.000124,
+          "avg_bits_per_cycle": 14.983778571428571,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "functional_check": {
+          "benchmark": "matvec2x2",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "name": "sad_block",
+      "greedy": {
+        "latency_cycles": 9,
+        "area_ge": 2448.0,
+        "area_breakdown": {
+          "functional_unit_ge": 472.0,
+          "register_ge": 1536.0,
+          "latch_ge": 56.0,
+          "mux_ge": 384.0,
+          "total_ge": 2448.0
+        },
+        "power_mw": 0.0017178293750000002,
+        "power_detail": {
+          "power_mw": 0.0017178293750000002,
+          "p_dyn_mw": 0.0015954293750000002,
+          "p_static_mw": 0.00012240000000000002,
+          "avg_bits_per_cycle": 15.954293750000001,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 1,
+        "tvla_max_abs_t": 1.1666908425750073,
+        "tvla_worst_cycle": 6,
+        "tvla_unprotected_selftest_max_abs_t": 667.6628514707307,
+        "functional_check": {
+          "benchmark": "sad_block",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 9,
+        "area_ge": 2448.0,
+        "area_breakdown": {
+          "functional_unit_ge": 472.0,
+          "register_ge": 1536.0,
+          "latch_ge": 56.0,
+          "mux_ge": 384.0,
+          "total_ge": 2448.0
+        },
+        "power_mw": 0.0017178293750000002,
+        "power_detail": {
+          "power_mw": 0.0017178293750000002,
+          "p_dyn_mw": 0.0015954293750000002,
+          "p_static_mw": 0.00012240000000000002,
+          "avg_bits_per_cycle": 15.95429375,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 1,
+        "functional_check": {
+          "benchmark": "sad_block",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "name": "iir2_section",
+      "greedy": {
+        "latency_cycles": 8,
+        "area_ge": 3048.0,
+        "area_breakdown": {
+          "functional_unit_ge": 848.0,
+          "register_ge": 1728.0,
+          "latch_ge": 56.0,
+          "mux_ge": 416.0,
+          "total_ge": 3048.0
+        },
+        "power_mw": 0.0021827750000000005,
+        "power_detail": {
+          "power_mw": 0.0021827750000000005,
+          "p_dyn_mw": 0.0020303750000000005,
+          "p_static_mw": 0.00015240000000000002,
+          "avg_bits_per_cycle": 20.30375,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 1,
+        "tvla_max_abs_t": 1.8201444995529252,
+        "tvla_worst_cycle": 6,
+        "tvla_unprotected_selftest_max_abs_t": 1791.245266930414,
+        "functional_check": {
+          "benchmark": "iir2_section",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 7,
+        "area_ge": 2992.0,
+        "area_breakdown": {
+          "functional_unit_ge": 848.0,
+          "register_ge": 1728.0,
+          "latch_ge": 0.0,
+          "mux_ge": 416.0,
+          "total_ge": 2992.0
+        },
+        "power_mw": 0.0025183708333333336,
+        "power_detail": {
+          "power_mw": 0.0025183708333333336,
+          "p_dyn_mw": 0.0023687708333333334,
+          "p_static_mw": 0.0001496,
+          "avg_bits_per_cycle": 23.687708333333333,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "functional_check": {
+          "benchmark": "iir2_section",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "name": "moving_avg8",
+      "greedy": {
+        "latency_cycles": 10,
+        "area_ge": 2872.0,
+        "area_breakdown": {
+          "functional_unit_ge": 472.0,
+          "register_ge": 1920.0,
+          "latch_ge": 0.0,
+          "mux_ge": 480.0,
+          "total_ge": 2872.0
+        },
+        "power_mw": 0.0019054544444444446,
+        "power_detail": {
+          "power_mw": 0.0019054544444444446,
+          "p_dyn_mw": 0.0017618544444444448,
+          "p_static_mw": 0.00014360000000000002,
+          "avg_bits_per_cycle": 17.618544444444446,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "tvla_max_abs_t": 1.639200714213945,
+        "tvla_worst_cycle": 5,
+        "tvla_unprotected_selftest_max_abs_t": 1.639200714213945,
+        "functional_check": {
+          "benchmark": "moving_avg8",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 10,
+        "area_ge": 2872.0,
+        "area_breakdown": {
+          "functional_unit_ge": 472.0,
+          "register_ge": 1920.0,
+          "latch_ge": 0.0,
+          "mux_ge": 480.0,
+          "total_ge": 2872.0
+        },
+        "power_mw": 0.001905454444444445,
+        "power_detail": {
+          "power_mw": 0.001905454444444445,
+          "p_dyn_mw": 0.0017618544444444452,
+          "p_static_mw": 0.00014360000000000002,
+          "avg_bits_per_cycle": 17.61854444444445,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "functional_check": {
+          "benchmark": "moving_avg8",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "name": "wgt_sum_mix",
+      "greedy": {
+        "latency_cycles": 8,
+        "area_ge": 3528.0,
+        "area_breakdown": {
+          "functional_unit_ge": 872.0,
+          "register_ge": 2112.0,
+          "latch_ge": 0.0,
+          "mux_ge": 544.0,
+          "total_ge": 3528.0
+        },
+        "power_mw": 0.002562100714285715,
+        "power_detail": {
+          "power_mw": 0.002562100714285715,
+          "p_dyn_mw": 0.002385700714285715,
+          "p_static_mw": 0.0001764,
+          "avg_bits_per_cycle": 23.857007142857146,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "tvla_max_abs_t": 1.4641686945295196,
+        "tvla_worst_cycle": 5,
+        "tvla_unprotected_selftest_max_abs_t": 1.4641686945295196,
+        "functional_check": {
+          "benchmark": "wgt_sum_mix",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      },
+      "ilp": {
+        "latency_cycles": 8,
+        "area_ge": 3528.0,
+        "area_breakdown": {
+          "functional_unit_ge": 872.0,
+          "register_ge": 2112.0,
+          "latch_ge": 0.0,
+          "mux_ge": 544.0,
+          "total_ge": 3528.0
+        },
+        "power_mw": 0.002562100714285715,
+        "power_detail": {
+          "power_mw": 0.002562100714285715,
+          "p_dyn_mw": 0.002385700714285715,
+          "p_static_mw": 0.0001764,
+          "avg_bits_per_cycle": 23.857007142857146,
+          "clock_mhz": 200.0
+        },
+        "n_latches": 0,
+        "functional_check": {
+          "benchmark": "wgt_sum_mix",
+          "n_trials": 200,
+          "n_mismatches": 0,
+          "passed": true,
+          "mismatches": []
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "n_benchmarks": 8,
+    "greedy": {
+      "latency_cycles_mean": 7.875,
+      "latency_cycles_values": [
+        5,
+        8,
+        7,
+        8,
+        9,
+        8,
+        10,
+        8
+      ],
+      "area_ge_mean": 2458.0,
+      "area_ge_values": [
+        1344.0,
+        1688.0,
+        2256.0,
+        2480.0,
+        2448.0,
+        3048.0,
+        2872.0,
+        3528.0
+      ],
+      "power_mw_mean": 0.0017719097333829367,
+      "power_mw_values": [
+        0.001624915,
+        0.0011842421428571428,
+        0.0013755833333333335,
+        0.0016223778571428573,
+        0.0017178293750000002,
+        0.0021827750000000005,
+        0.0019054544444444446,
+        0.002562100714285715
+      ],
+      "tvla_max_abs_t_worst": 2.116350856620351,
+      "tvla_max_abs_t_values": [
+        1.113759165825479,
+        1.0971235762598033,
+        1.1061096320669013,
+        2.116350856620351,
+        1.1666908425750073,
+        1.8201444995529252,
+        1.639200714213945,
+        1.4641686945295196
+      ],
+      "tvla_unprotected_selftest_worst": 1791.245266930414
+    },
+    "ilp": {
+      "latency_cycles_mean": 7.625,
+      "latency_cycles_values": [
+        5,
+        8,
+        6,
+        8,
+        9,
+        7,
+        10,
+        8
+      ],
+      "area_ge_mean": 2451.0,
+      "area_ge_values": [
+        1344.0,
+        1688.0,
+        2256.0,
+        2480.0,
+        2448.0,
+        2992.0,
+        2872.0,
+        3528.0
+      ],
+      "power_mw_mean": 0.0018454287958829367,
+      "power_mw_values": [
+        0.001624915,
+        0.0011842421428571428,
+        0.00162814,
+        0.0016223778571428573,
+        0.0017178293750000002,
+        0.0025183708333333336,
+        0.001905454444444445,
+        0.002562100714285715
+      ]
+    },
+    "latency_inflation_cycles": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "benchmarks": [
+      "dot_product4",
+      "fir4_tap",
+      "poly_eval5",
+      "matvec2x2",
+      "sad_block",
+      "iir2_section",
+      "moving_avg8",
+      "wgt_sum_mix"
+    ]
+  },
+  "wandb_run_url": "https://wandb.ai/ragidiabhinavreddy-bytecounsel/prof-f9e1ad4b-plan-052536e6/runs/nuf6bi6d",
+  "elapsed_seconds": 6.167182683944702,
+  "figures_inline_data": {
+    "pareto_tradeoff_plot": {
+      "benchmarks": [
+        "dot_product4",
+        "fir4_tap",
+        "poly_eval5",
+        "matvec2x2",
+        "sad_block",
+        "iir2_section",
+        "moving_avg8",
+        "wgt_sum_mix"
+      ],
+      "greedy_latency_cycles": [
+        5,
+        8,
+        7,
+        8,
+        9,
+        8,
+        10,
+        8
+      ],
+      "greedy_area_ge": [
+        1344.0,
+        1688.0,
+        2256.0,
+        2480.0,
+        2448.0,
+        3048.0,
+        2872.0,
+        3528.0
+      ],
+      "ilp_latency_cycles": [
+        5,
+        8,
+        6,
+        8,
+        9,
+        7,
+        10,
+        8
+      ],
+      "ilp_area_ge": [
+        1344.0,
+        1688.0,
+        2256.0,
+        2480.0,
+        2448.0,
+        2992.0,
+        2872.0,
+        3528.0
+      ]
+    },
+    "scheduling_overhead": {
+      "benchmarks": [
+        "dot_product4",
+        "fir4_tap",
+        "poly_eval5",
+        "matvec2x2",
+        "sad_block",
+        "iir2_section",
+        "moving_avg8",
+        "wgt_sum_mix"
+      ],
+      "latency_inflation_cycles": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  }
+}
